@@ -1,0 +1,17 @@
+{
+  "name": "slack-workouts",
+  "version": "1.0.0",
+  "description": "A slack bot for posting workouts using AWS Lambda and DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Cox <cox.michael@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "aws-sdk": "^2.2.33",
+    "moment-timezone": "^0.5.1",
+    "qs": "^6.0.2"
+  }
+}
